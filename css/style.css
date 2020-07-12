@@ -138,3 +138,24 @@ button.ghost{
     transform: translateX(0);
     transition: transform .6s ease-in-out;
 }
+.overlay-panel{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+    width: 50%;
+    height: 100%;
+    transform: translateX(0);
+    transition: transform .6s ease-in-out;
+}
+.overlay-right{
+    right: 0;
+    transform: translateX(0);
+}
+.overlay-left{
+    transform: translateX(-20%);
+}
