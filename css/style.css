@@ -159,3 +159,33 @@ button.ghost{
 .overlay-left{
     transform: translateX(-20%);
 }
+
+/* animation */
+
+/* move signin to the right */
+.container.right-panel-active .signin-container{
+    transform: translateX(100%);
+}
+
+/* move overlay to the left */
+.container.right-panel-active .overlay-container{
+    transform: translateX(-100%);
+}
+
+/* bring signup over signin */
+.container.right-panel-active .signup-container{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+/* move overlay back to the right */
+.container.right-panel-active .overlay{
+    transform: translateX(50%);
+}
+.container.right-panel-active .overlay-left{
+    transform: translateX(0);
+}
+.container.right-panel-active .overlay-right{
+    transform: translateX(20%);
+}
